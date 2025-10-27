@@ -6,13 +6,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Banking.html">Banking</a></li>
-            <li><a href="genomics.html">Page 2</a></li>
-            <li><a href="healthcare.html">Healthcare</a></li>
-            <li><a href="environment.html">Environment</a></li>
-        </ul>
+        <div id="navbar-comp"></div>
         <h1>Computing in Healthcare</h1>
 
         <h2>Medical Imaging</h2>
@@ -32,5 +26,9 @@
 
         <h2>Security</h2>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script>
+            $("#navbar-comp").load("/navbar.html");
+        </script>
     </body>
 </html>
