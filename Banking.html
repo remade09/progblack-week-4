@@ -6,13 +6,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Banking.html">Banking</a></li>
-            <li><a href="page2.html">Page 2</a></li>
-            <li><a href="healthcare.html">healthcare</a></li>
-            <li><a href="environment.html">envrionment</a></li>
-        </ul>
+        <div id="navbar-comp"></div>
         <h1>
             Benefits of computers in banking
         </h1>
@@ -27,5 +21,9 @@
         </p>
         <img src = "money.jpg" float = right>
         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script>
+            $("#navbar-comp").load("/navbar.html");
+        </script>
     </body>
 </html>
