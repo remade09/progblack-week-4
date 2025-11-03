@@ -8,9 +8,11 @@
 }
 
 .genomicList {
-    text-align: center;
+    text-align: left;
     background-color: lightpink;
     color: #232323;
+    margin: 0;
+    padding: 0;
 }
 
 .navele li {
