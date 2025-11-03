@@ -11,7 +11,7 @@
     float: left;
 }
 
-.navele li a {
+.test li a {
     display: block;
     color: white;
     text-align: center;
@@ -19,6 +19,6 @@
     text-decoration: none;
 }
 
-.navele li a:hover {
+.test li a:hover {
     background-color: #232323;
 }
