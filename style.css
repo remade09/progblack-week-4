@@ -7,6 +7,12 @@ ul {
     background-color: #363636;
 }
 
+.genomicList {
+    text-align: center;
+    background-color: lightpink;
+    color: #232323;
+}
+
 li {
     float: left;
 }
