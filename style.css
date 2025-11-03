@@ -7,11 +7,11 @@ ul {
     background-color: #363636;
 }
 
-navbar li {
+li {
     float: left;
 }
 
-navbar li a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -19,6 +19,6 @@ navbar li a {
     text-decoration: none;
 }
 
-navbar li a:hover {
+li a:hover {
     background-color: #232323;
 }
