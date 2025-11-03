@@ -10,7 +10,6 @@
 .genomicList {
     text-align: left;
     background-color: lightpink;
-    color: #232323;
     margin: 0;
     padding: 0;
 }
@@ -30,3 +29,9 @@
 a:hover.test {
     background-color: #232323;
 }
+
+body {
+    background-image: url("binary.jpg");
+    background-color: #cccccc;
+    color: aliceblue;
+   }
