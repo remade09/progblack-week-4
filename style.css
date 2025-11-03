@@ -1,4 +1,4 @@
-#navbar ul {
+#navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -15,11 +15,11 @@
     padding: 0;
 }
 
-.navele li {
+.navele {
     float: left;
 }
 
-.test li a {
+.test {
     display: block;
     color: white;
     text-align: center;
@@ -27,6 +27,6 @@
     text-decoration: none;
 }
 
-.test li a:hover {
+a:hover.test {
     background-color: #232323;
 }
