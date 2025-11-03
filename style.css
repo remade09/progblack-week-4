@@ -1,4 +1,4 @@
-ul {
+#navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -13,11 +13,17 @@ ul {
     color: #232323;
 }
 
-li {
+.genomicList {
+    text-align: center;
+    background-color: lightpink;
+    color: #232323;
+}
+
+.navele li {
     float: left;
 }
 
-li a {
+.test li a {
     display: block;
     color: white;
     text-align: center;
@@ -25,6 +31,6 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.test li a:hover {
     background-color: #232323;
 }
